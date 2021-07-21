@@ -1,0 +1,854 @@
+/* Tablet */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) {
+    #hero-section {
+        background-image: url(../img/desktop-bg.png);
+        background-size: cover;
+        background-position: center;
+        width: 100% !important;
+        padding-top: 140px !important;
+        padding-bottom: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        border-radius: 0 !important;
+        margin-top: 0 !important;
+    }
+    #hero-section .container {
+        padding: 0;
+        margin: 0;
+        max-width: 100% !important;
+    }
+    .hero-text {
+        width: auto !important;
+        font-size: 50px;
+        font-weight: 400;
+        color: rgb(136, 89, 89);
+    }
+    #hero-bg-section {
+        position: relative !important;
+        background-image: none;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #desktop-center-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #desktop-center-img img {
+        width: 50% !important;
+        height: 100% !important;
+    }
+    #hero-buttons {
+        position: absolute;
+        justify-content: center;
+        bottom: 5%;
+    }
+    #hero-buttons .btn-login {
+        margin-left: 34px;
+    }
+    .hero-text {
+        padding-top: 0;
+    }
+    .section-card {
+        display: flex;
+        flex-direction: row;
+    }
+    #main-cards-section .section-card:first-child {
+        flex-direction: row-reverse;
+    }
+    .text-actions {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .text-actions .btn {
+        align-self: flex-start;
+    }
+    #main-cards-section .section-card:last-child .text-actions .btn {
+        align-self: flex-end;
+    }
+    /* uni-life section */
+    #uni-life {
+        padding-top: 90px;
+    }
+    #uni-life .top-section {
+        width: 40%;
+    }
+    #uni-life .down-section {
+        width: 60%;
+    }
+    .feature-card {
+        max-width: 30% !important;
+    }
+    #uni-life .top-section h2 {
+        margin-top: 0;
+    }
+    /* scholarships section */
+    #scholarships .section-card .text-actions .btn {
+        align-self: flex-end;
+    }
+    /* courses section */
+    #courses-row {
+        flex-direction: row-reverse;
+    }
+    #courses #text-course {
+        height: auto;
+    }
+    #courses form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #courses #first-step-div,
+    #courses #second-step-div {
+        width: 100%;
+    }
+    #courses .form-group {
+        margin-left: 43px;
+    }
+    #personal-exams .card-exam {
+        max-width: 30%;
+    }
+    #personal-exams .exam-header-card {
+        width: 40%;
+    }
+    #personal-exams .exam-card-footer {
+        width: 60%;
+    }
+    #personal-exams {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    /* footer */
+    footer {
+        height: auto !important;
+        border-top-left-radius: 42px;
+        border-top-right-radius: 42px;
+    }
+    .social-media-footer {
+        display: flex;
+        align-items: center;
+        padding-right: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    footer li {
+        list-style: none;
+    }
+    .social-media-footer li {
+        margin-left: 15px;
+        height: 51px;
+        width: 51px;
+        border: 0 !important;
+        border-radius: 11px;
+        overflow: hidden;
+    }
+    .social-media-footer li svg {
+        position: absolute;
+    }
+    .social-media-footer li a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .social-media-footer li.facebook {
+        background-color: #113FD6;
+    }
+    .social-media-footer li.facebook {
+        background-color: #113FD6;
+    }
+    .social-media-footer li.twitter {
+        background-color: #01A6D1;
+    }
+    .social-media-footer li.google {
+        background-color: #CB2561;
+    }
+    .social-media-footer li.google svg {
+        width: 65% !important;
+        height: 100% !important;
+    }
+    .social-media-footer li.google svg path {
+        fill: #FFF !important;
+    }
+    footer p {
+        text-align: right;
+        color: #707070 !important;
+    }
+    footer .text-send {
+        font-size: 18px;
+    }
+    footer .emailto {
+        color: #707070 !important;
+        font-size: 19px;
+    }
+    #row-footer-desktop {
+        border-bottom: 1px solid #707070;
+    }
+    #links-footer {
+        display: flex;
+        align-items: center;
+    }
+    .page-links-footer li {
+        margin-top: 10px;
+    }
+    .page-links-footer li a {
+        color: #707070 !important;
+        text-decoration: none;
+        font-size: 21px;
+    }
+    .page-links-footer li a:hover {
+        color: #FF8800 !important;
+    }
+    .footer-logo {
+        width: 59px;
+        height: 42px;
+        margin-left: 16px;
+    }
+    #row-footer-desktop h2 {
+        font-size: 27px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .text-desc-footer {
+        font-size: 18px;
+    }
+    #footer-text {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #footer-text p {
+        font-size: 21px;
+    }
+    #form-buttons .btn {
+        margin-left: 25px;
+    }
+    /* universites section */
+    #hero-background {
+        height: 672px;
+    }
+    #hero-background .hero-search {
+        width: 50%;
+        margin: auto;
+    }
+    #hero-background .hero-bg-text {
+        margin-top: 0;
+    }
+    #ads-section #row-ads {
+        border-top: 1px solid #707070;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #ads-section #row-ads img {
+        width: 100%;
+        height: 100%;
+    }
+    #ads-section #row-ads a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 22px;
+        overflow: hidden;
+    }
+    #input-hero-search {
+        cursor: pointer;
+    }
+    .owl-item {
+        cursor: pointer;
+    }
+    /*  */
+    #iframe-card figure {
+        height: 478px;
+    }
+    #image-background {
+        background-image: url('../img/youtube-cover-dt.png');
+    }
+    #iframe-card figure iframe {
+        height: 100%;
+    }
+    #university .exam-card-footer span {
+        padding: 4px !important;
+        font-size: 18px !important;
+    }
+    #university .card-exam {
+        padding-left: 0 !important;
+        max-width: 31%;
+    }
+    .exam-header-card img {
+        height: 100%;
+    }
+    .info-title .title-section {
+        padding: 3px 15px;
+    }
+    #university {
+        padding-top: 50px;
+    }
+    .collegs-majors {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .collegs-majors svg {
+        margin-left: auto;
+    }
+    .collegs-majors span {
+        margin-left: auto;
+        font-size: 28px;
+    }
+    #slide-content-down.slideDown,
+    #slide-content.slideDown {
+        width: 70% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    #university .icons a {
+        height: 60px !important;
+        width: 60px !important;
+    }
+    #slideClick #other-click {
+        width: 70% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .collegs-majors span {
+        font-size: 21px !important;
+    }
+    #slide-content-down {
+        display: flex;
+    }
+    #slide-content-down,
+    #slide-content {
+        flex-direction: column;
+        width: 100% !important;
+    }
+    #slide-content-down .nav-link,
+    #slide-content .nav-link {
+        font-size: 21px !important;
+        text-align: center !important;
+        color: #707070 !important;
+    }
+    #slide-content-down li,
+    #slide-content li {
+        margin-bottom: 10px !important;
+        border-radius: 11px !important;
+        overflow: hidden !important;
+        -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16) !important;
+        -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16) !important;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16) !important;
+    }
+    #slide-content-down.nav-tabs,
+    #slide-content.nav-tabs {
+        border: 0;
+    }
+    #slide-content.nav-tabs .nav-item {
+        width: 100%;
+    }
+    #slide-content-down.nav-tabs .nav-item .nav-link,
+    #slide-content.nav-tabs .nav-item .nav-link {
+        border: 0 !important;
+    }
+    #slide-content.nav-tabs .nav-item .nav-link {
+        position: relative;
+        width: 100%;
+        height: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 18px;
+    }
+    #slide-content.nav-tabs .nav-item .nav-link span {
+        z-index: 99;
+        color: #FFF;
+    }
+    #other-click {
+        border-radius: 11px !important;
+        padding: .5rem 1rem !important;
+    }
+    #slide-content.nav-tabs .nav-item .nav-link img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    #slide-content {
+        position: static;
+        padding: 0 !important;
+        background-color: transparent !important;
+        border: 0 !important;
+        box-shadow: none !important
+    }
+    #university .university-data p {
+        font-size: 24px;
+    }
+    #slideClick a {
+        height: auto !important;
+    }
+    .top-student {
+        background-image: url('../img/uni-life-dk.png');
+        height: 790px !important;
+        margin-top: 0px !important;
+    }
+    .student-img {
+        margin-top: 100px;
+    }
+    .student-img img {
+        margin-left: auto;
+    }
+    #text-uni-life-desc {
+        display: flex;
+        flex-direction: column;
+        margin-top: 160px;
+        margin-right: 35px;
+    }
+    #text-uni-life-desc h4 {
+        position: static;
+        margin: 0;
+        text-align: right;
+        margin-bottom: 40px;
+    }
+    #text-uni-life-desc p {
+        color: #FFF;
+        font-size: 22px;
+    }
+    #change-books-2 .row {
+        flex-direction: row-reverse;
+    }
+    #change-books-2 .try-now {
+        justify-content: flex-start !important;
+        flex-direction: row-reverse;
+    }
+    .slider-library-left {
+        background-image: url('../img/uni-life-left-dk.png');
+    }
+    .draw-left span {
+        justify-content: flex-start;
+        margin-right: 80px;
+    }
+    .draw-left span svg {
+        margin-right: 15px;
+    }
+    #change-books-3 .try-now {
+        justify-content: flex-start !important;
+        flex-direction: row-reverse;
+    }
+    #change-books-2 .try-now .svg-btn,
+    #change-books-3 .try-now .svg-btn,
+    #change-books-4 .try-now .svg-btn {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    #change-books-2 .try-now svg,
+    #change-books-3 .try-now svg,
+    #change-books-4 .try-now svg {
+        transform: rotate(180deg);
+    }
+    .slider-library-right {
+        background-image: url('../img/uni-life-right-dk.png');
+        height: 798.66px;
+    }
+    .slider-library-right .draw-left span {
+        margin-right: auto;
+        justify-content: flex-end;
+        margin-left: 80px;
+    }
+    .slider-library-right .draw-left span svg {
+        margin-right: 0;
+        margin-left: 15px;
+    }
+    #change-books-4 .row {
+        flex-direction: row-reverse;
+    }
+    #change-books-4 .try-now {
+        flex-direction: row-reverse;
+    }
+    .foo-ads-desktop {
+        overflow: hidden;
+        padding: 0;
+    }
+    .foo-ads-desktop a,
+    .foo-ads-desktop img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .side-ads a {
+        width: 60%;
+        display: block;
+        text-align: center;
+        margin: auto;
+        overflow: hidden;
+    }
+    .side-ads img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    #scholarships-types .nav-tabs .nav-link {
+        border: 0 !important;
+        border-radius: 0 !important;
+    }
+    #scholarships-types #myTab .nav-item .nav-link h2 {
+        font-size: 25px !important;
+        margin-bottom: 2px !important;
+    }
+    #scholarships-details #myTabContent .tab-pane.active {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #scholarships-types #myTab.nav-tabs .nav-item {
+        margin-bottom: -4px !important;
+    }
+    #scholarships-slider {
+        height: 672px;
+    }
+    #input-hero-search-text {
+        display: block !important;
+    }
+    #scholarships-slider #carouselExampleIndicators,
+    #scholarships-slider .carousel-inner {
+        height: 100%;
+    }
+    #scholarships-types .container {
+        max-width: 100%;
+    }
+    #scholarships-slider .carousel-caption {
+        bottom: 120px;
+    }
+    #scholarships-details .scholarships-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 0 !important;
+    }
+    #scholarships-details .scholarships-description .scholarships-buttons .btn-primary,
+    #scholarships-details .scholarships-description .scholarships-buttons .btn-info {
+        font-size: 21px !important;
+    }
+    #scholarships-details .scholarships-description .scholarships-buttons {
+        justify-content: flex-end;
+    }
+    #scholarships-details .scholarships-description .scholarships-buttons .btn-primary {
+        margin-left: 15px;
+    }
+    #scholarships-details .scholarships-description .scholarships-buttons .btn-primary,
+    #scholarships-details .scholarships-description .scholarships-buttons .btn-info {
+        padding-right: 25px;
+        padding-left: 25px;
+        width: auto;
+    }
+    #scholarship-single-steps #definition {
+        margin-bottom: 40px;
+    }
+    #scholarship-single-hero .scholarship-card {
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .register-with {
+        align-items: flex-end;
+    }
+    .register-scholarship {
+        margin: 0;
+        justify-content: flex-end;
+    }
+    .register-scholarship .btn {
+        width: auto;
+        padding: 15px 30px;
+    }
+    .register-scholarship .btn-register-direct {
+        margin-left: 15px;
+    }
+    #scholarship-single-hero {
+        padding-top: 62px;
+        padding-bottom: 62px;
+    }
+    #university.university-majors .university-data #definition {
+        padding-bottom: 180px !important;
+    }
+    #university #major-courses {
+        background-image: none !important;
+    }
+    #courses-bg-desktop {
+        background-image: url('../img/courses-bg-sk.png');
+        margin-bottom: 40px;
+    }
+    .slider-section#common-people {
+        margin-bottom: 50px;
+    }
+    #statistics {
+        overflow: hidden;
+        padding-top: 54px;
+        padding-bottom: 20px;
+    }
+    #statistics img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    #test-cards .test-card p {
+        text-align: right;
+    }
+    #second-card-test,
+    #second-card-test .info-more {
+        flex-direction: row-reverse;
+    }
+    #second-card-test.test-card .info-title {
+        justify-content: flex-end;
+    }
+    #second-card-test.test-card .info-more svg {
+        transform: rotate(180deg);
+    }
+    /* top-nav-collapse */
+    #top-nav-collapse {
+        display: none !important;
+    }
+    #top-nav-desktop-collapse #top-nav-desktop-links li.nav-item {
+        align-items: center;
+        display: flex;
+    }
+    #top-nav-desktop-collapse #top-nav-desktop-links .nav-item.active .nav-link {
+        color: #FF8800 !important;
+    }
+    #row-nav-desktop {
+        justify-content: space-between;
+        align-items: center;
+    }
+    #search-form-desktop [type="submit"],
+    #search-form-desktop [type="search"] {
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: transparent;
+        outline: none !important;
+        box-shadow: none;
+    }
+    #search-form-desktop [type="submit"] {
+        background: #FF8800 !important;
+        z-index: 9;
+        padding: 10px;
+    }
+    #search-form-desktop [type="search"] {
+        background: #E5E5E5 !important;
+        color: #707070;
+        margin-right: -5px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        padding: 9px 10px !important;
+        margin-top: 1px !important;
+    }
+    #uni-life-desktop {
+        justify-content: space-between;
+        flex-direction: column;
+        display: flex;
+    }
+    #uni-life-desktop #uni-btn {
+        display: flex;
+    }
+    #uni-life-desktop #uni-btn a.btn {
+        align-self: flex-end;
+    }
+    .ads-space-desktop img {
+        width: 100%;
+        height: 100%;
+    }
+    #scholarships-details .scholarships-note {
+        font-size: 25px !important;
+    }
+    #scholarships-details .scholarships-description .scholarships-buttons .btn-info {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+    #scholarships-details .scholarships-description .scholarships-buttons .btn-primary,
+    #scholarships-details .scholarships-description .scholarships-buttons .btn-info {
+        font-size: 18px !important;
+    }
+    #scholarships-details .scholarships-description {
+        margin-bottom: 30px !important;
+    }
+    #scholarships-details figure {
+        height: 255px !important;
+    }
+    /* New Style */
+    /* WELCOME-WORD PAGE */
+    #welcome {
+        margin-top: 100px;
+    }
+    #welcome .container {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    #welcome h3 {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+    #welcome p {
+        font-size: 22px;
+        margin-bottom: 57px;
+    }
+    /* SPECIALTY PAGE */
+    /* Section: Showcase */
+    #showcase {
+        margin-top: 57px;
+        justify-content: flex-end;
+        align-items: flex-start;
+        text-align: right;
+        margin-bottom: 80px;
+        padding: 66px 121px;
+    }
+    #showcase h4 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    #showcase h3 {
+        font-size: 28px;
+        margin-bottom: 22px;
+    }
+    #showcase h2 {
+        font-size: 26px;
+        font-weight: 500;
+    }
+    /* Section: Content */
+    #content {
+        margin-bottom: 240px;
+    }
+    #content .item {
+        margin-bottom: 55px;
+    }
+    #content .item .bullets {
+        height: 40px;
+        width: 40px;
+        background: #EE770F;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    #content .item h3 {
+        font-size: 28px;
+        color: #888888;
+        font-weight: 400;
+        margin-bottom: 37px;
+    }
+    #content .item .boxes {
+        margin-top: 36px;
+    }
+    /* RESULT PAGE */
+    #results {
+        margin-top: 95px;
+    }
+    #results h3 {
+        margin-bottom: 35px;
+    }
+    #results .head h6 {
+        margin-bottom: 20px;
+    }
+    #results .order {
+        /* display: block; */
+    }
+    #results p {
+        font-size: 18px;
+        margin-bottom: 19px;
+        margin-left: 2rem;
+    }
+    #results .b-1 {
+        width: 153px;
+        height: 50px;
+    }
+    #results hr {
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    #results .speciality {
+        margin-bottom: 38px;
+    }
+    #results .result-details {
+        margin-bottom: 82px;
+    }
+    /* INFORMATION PAGE */
+    #information {
+        margin-top: 95px;
+        /* margin-bottom: 70px; */
+        margin-bottom: 300px;
+    }
+    #information h3 {
+        font-size: 32px;
+        margin-bottom: 37px;
+        color: #EE770F;
+    }
+    #information h5 {
+        margin-bottom: 25px;
+    }
+    #information .group {
+        display: flex;
+    }
+    #information .group-1 .form-group {
+        margin-left: 105px;
+        margin-bottom: 102px;
+    }
+    #information .group-2 .form-group {
+        margin-left: 105px;
+        margin-bottom: 102px;
+    }
+    #information .group-3 .form-group {
+        margin-left: 105px;
+        margin-bottom: 82px;
+    }
+    #information form .form-group {
+        margin-bottom: 0;
+    }
+    #information form .btn-test {
+        margin-top: 0;
+    }
+    #information .block {
+        width: 493px;
+    }
+    /* FOOTER */
+    #main-footer {
+        padding-top: 65px;
+        padding-bottom: 70px;
+    }
+    #main-footer .item-1 {
+        margin-bottom: 0;
+    }
+    #main-footer .item-1 h3 {
+        font-size: 22px;
+        margin-bottom: 13px;
+    }
+    #main-footer .item-1 p {
+        font-size: 14px;
+    }
+    #main-footer .item-2 {
+        margin-bottom: 0;
+    }
+    #main-footer .item-2 .links-footer {
+        margin-left: 80px;
+    }
+    #main-footer .item-2 ul li {
+        margin-bottom: 15px !important;
+    }
+    #main-footer .item-3 {
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 1.5rem;
+        padding-right: 4rem;
+    }
+    #main-footer hr {
+        margin-top: 47px;
+    }
+}
