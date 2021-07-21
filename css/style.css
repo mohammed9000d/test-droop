@@ -2332,10 +2332,16 @@ nav.bg-light {
 #main-footer .item-1 .social-media-footer li {
     height: 45px;
     width: 45px;
-    background: #fff;
+    /* background: #fff; */
     font-size: 20px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     margin-left: 15px;
+}
+
+#main-footer .item-1 .social-media-footer img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
 }
 
 #main-footer .item-2 {
