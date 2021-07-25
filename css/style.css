@@ -1942,7 +1942,7 @@ nav.bg-light {
 
 #welcome {
     margin-top: 75px;
-    margin-bottom: 200px;
+    margin-bottom: 80px;
 }
 
 #welcome .container {
@@ -2008,6 +2008,7 @@ nav.bg-light {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
+    padding: .5rem;
 }
 
 #information form input:focus,

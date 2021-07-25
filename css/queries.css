@@ -686,7 +686,8 @@
     /* New Style */
     /* WELCOME-WORD PAGE */
     #welcome {
-        margin-top: 100px;
+        margin-top: 150px;
+        margin-bottom: 290px;
     }
     #welcome .container {
         padding-left: 130px;
@@ -850,5 +851,11 @@
     }
     #main-footer hr {
         margin-top: 47px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #welcome {
+        margin-top: 320px;
     }
 }
