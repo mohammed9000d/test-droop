@@ -2003,6 +2003,17 @@ nav.bg-light {
     border: #E9E9E9 1px solid;
     border-radius: 5px;
     color: #888888;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+#information form input:focus,
+#information form select:focus {
+    outline: none;
+    border-color: #FF8800;
 }
 
 #information span {
@@ -2019,12 +2030,6 @@ nav.bg-light {
     background-color: #EE770F;
     border-color: #E9E9E9;
     border-radius: 5px;
-}
-
-#information form input:focus,
-#information form select:focus {
-    outline: none;
-    border-color: #FF8800;
 }
 
 #information form .btn-test {
@@ -2053,6 +2058,17 @@ nav.bg-light {
     font-size: 32px;
     color: #EE770F;
     margin-bottom: 30px;
+}
+
+#results .result-image {
+    height: 70px;
+    width: 70px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #results .head h5 {

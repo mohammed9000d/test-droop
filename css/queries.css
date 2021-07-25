@@ -761,7 +761,7 @@
     #results p {
         font-size: 18px;
         margin-bottom: 19px;
-        margin-left: 2rem;
+        margin-left: 6rem;
     }
     #results .b-1 {
         width: 153px;
@@ -781,7 +781,7 @@
     #information {
         margin-top: 95px;
         /* margin-bottom: 70px; */
-        margin-bottom: 300px;
+        margin-bottom: 70px;
     }
     #information h3 {
         font-size: 32px;
