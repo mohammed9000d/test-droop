@@ -84,7 +84,7 @@
 }
 
 .btn-login {
-    background-color: #E5A423;
+    background-color: #9b8e76;
     border: #E5A423;
 }
 
@@ -2062,14 +2062,15 @@ nav.bg-light {
 }
 
 #results .result-image {
-    height: 70px;
-    width: 70px;
+    height: 55px;
+    width: 55px;
     background: #fff;
-    border-radius: 15px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -15px;
 }
 
 #results .head h5 {
@@ -2149,6 +2150,7 @@ nav.bg-light {
 
 #results .result-details {
     margin-bottom: 90px;
+    display: flex;
 }
 
 #results .result-details .btn {
@@ -2349,9 +2351,7 @@ nav.bg-light {
 #main-footer .item-1 .social-media-footer li {
     height: 45px;
     width: 45px;
-    /* background: #fff; */
     font-size: 20px;
-    /* border-radius: 50%; */
     margin-left: 15px;
 }
 
