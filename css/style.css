@@ -2313,6 +2313,88 @@ nav.bg-light {
 }
 
 
+/* Who We Are Section */
+
+#who-we-are .showcase {
+    background: url('../img/headway-mobile.png') no-repeat center center/cover;
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 50px;
+}
+
+#who-we-are .showcase .back {
+    background: #FF8800;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+}
+
+#who-we-are .container {
+    padding: 0 35px;
+}
+
+#who-we-are .body {
+    margin-bottom: 47px;
+}
+
+#who-we-are .title .point {
+    height: 35px;
+    width: 35px;
+    background: #FF8800;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7px;
+}
+
+#who-we-are .title {
+    margin-bottom: 30px;
+}
+
+#who-we-are .title .sub-title {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 7px 12px;
+    border-radius: 10px;
+}
+
+#who-we-are .title .sub-title h3 {
+    color: #FF8800;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0;
+}
+
+#who-we-are .explane {
+    font-size: 14px;
+    margin: 0;
+}
+
+#who-we-are .items .item {
+    height: 310px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#who-we-are .items .item img {
+    margin-bottom: 25px;
+}
+
+#who-we-are .items .item p {
+    font-size: 15px;
+}
+
+
 /* FOOTER */
 
 #main-footer {
