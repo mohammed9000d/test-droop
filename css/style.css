@@ -102,7 +102,7 @@
 
 .btn-browse-uni {
     background: #44D2B5 !important;
-    border-color: #44D2B5;
+    border-color: #e7d4d4;
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -2333,8 +2333,12 @@ nav.bg-light {
     padding: 0 35px;
 }
 
-#who-we-are .body {
+#who-we-are .m-body {
     margin-bottom: 47px;
+}
+
+#who-we-are .body {
+    margin-bottom: 60px;
 }
 
 #who-we-are .title .point {
@@ -2392,6 +2396,120 @@ nav.bg-light {
 
 #who-we-are .items .item p {
     font-size: 15px;
+}
+
+
+/* HELP SECTION */
+
+#help {
+    margin-top: 43px;
+}
+
+#help .container {
+    padding: 0 35px;
+}
+
+#help .showcase {
+    background: url('../img/thought-mobile.png') no-repeat center center/cover;
+    height: 382px;
+    border-radius: 10px;
+    margin-bottom: 95px;
+}
+
+#help .help-header h3 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #0A293E;
+    margin-bottom: 28px;
+}
+
+#help .help-header .d-flex>div {
+    color: #CECDCD;
+    font-size: 14px;
+}
+
+#help .help-header .d-flex p {
+    color: #0A293E;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#help .help-header hr {
+    color: #D1D1D1;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+#help .help-para {
+    margin-bottom: 65px;
+    font-size: 14px;
+}
+
+#help ul {
+    list-style: none;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#help ul li::before {
+    content: "\2022";
+    color: #FF8800;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    font-size: 1.5rem;
+    margin-right: -2rem
+}
+
+#help .help-para a {
+    color: #FF8800;
+    text-decoration: underline;
+}
+
+#help .help-image {
+    background: url('../img/1381195.png') no-repeat center center/cover;
+    height: 141px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#help .interested {
+    margin-bottom: 70px;
+}
+
+#help .interested h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+#help .interested .items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+}
+
+#help .interested .items .item {
+    height: 234px;
+    width: 186px;
+    display: flex;
+    flex-direction: column;
+    background: url('..//img/massimiliano.jpg') no-repeat center center/cover;
+    color: #fff;
+    border-radius: 15px;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+#help .interested .items .item .item-bottom {
+    background: #FF8800;
+    padding: 20px 18px;
+    font-size: 11px;
+    border-radius: 0 0 15px 15px;
 }
 
 
